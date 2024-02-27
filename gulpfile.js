@@ -8,6 +8,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const beeper = require('beeper');
 const zip = require('gulp-zip');
+const tailwind = require('tailwindcss')
 
 // postcss plugins
 const easyimport = require('postcss-easy-import');
@@ -33,6 +34,7 @@ function hbs(done) {
         src(['*.hbs', 'partials/**/*.hbs']),
         livereload()
     ], handleError(done));
+    css(done);
 }
 
 function css(done) {
@@ -40,6 +42,7 @@ function css(done) {
         src('assets/css/screen.css', {sourcemaps: true}),
         postcss([
             easyimport,
+            tailwind(),
             autoprefixer(),
             cssnano()
         ]),
