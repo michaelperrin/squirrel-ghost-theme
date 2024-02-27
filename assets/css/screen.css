@@ -12,6 +12,7 @@
   --color-primary-text: var(--color-darker-gray);
   --h1-size: 2.8rem;
   --footer-spacing: 120px;
+  --content-font-size: 1.1rem;
 }
 
 @media (max-width: 767px) {
@@ -65,6 +66,12 @@ body:is(.is-head-transparent, .is-head-brand, .is-head-dark)
 .is-head-transparent .gh-head-logo img:first-of-type:not(:only-child) {
   display: block;
   opacity: 0;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: bold;
 }
 
 /* Styles specific to grid style sections */
@@ -562,7 +569,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 }
 
 .gh-cover-title {
-  font-size: 4.5rem;
   color: var(--color-white);
   text-transform: uppercase;
   word-break: break-word;
