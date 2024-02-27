@@ -735,10 +735,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     margin-bottom: 32px;
   }
 
-  .gh-cover-title {
-    font-size: 2rem;
-  }
-
   .gh-cover-description {
     font-size: 1.1rem;
   }
@@ -770,6 +766,10 @@ body:not(.home-template) .gh-topic-grid .gh-card {
   }
 
   .gh-topic-grid .gh-card-title {
+    font-size: 1rem;
+  }
+
+  .gh-content {
     font-size: 1rem;
   }
 

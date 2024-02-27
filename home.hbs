@@ -18,7 +18,7 @@
 <div class="w-full flex items-center relative isolate overflow-hidden bg-gray-900 px-6 min-h-[30vh] md:min-h-[60vh] pt-32 pb-24 lg:px-8" style="font-family: 'Open Sans', sans-serif;">
     <div class="relative mx-auto max-w-3xl text-center z-30">
         <h2 class="text-4xl font-bold tracking-tight text-white sm:text-5xl" style="text-shadow: 0 0 20px rgba(0, 0, 0, 0.9)">Des voyages en train</h2>
-        <p class="mt-6 text-lg leading-8 text-white font-medium" style="text-shadow: 0 0 20px rgba(0, 0, 0, 0.9)">
+        <p class="mt-6 text-md md:text-lg leading-8 text-white font-medium" style="text-shadow: 0 0 20px rgba(0, 0, 0, 0.9)">
             Je vous propose sur ce site des idées de destinations accessibles en train. Vous y trouverez des conseils pour organiser votre séjour, toutes les informations pour vous déplacer sur place sans voiture, et bien plus encore.
         </p>
     </div>
@@ -36,13 +36,13 @@
 
 <main class="gh-main gh-outer">
     <div class="gh-inner">
-        <section class="flex gap-12 mt-6 mb-12" style="font-family: 'Open Sans', sans-serif;">
-            <div class="w-2/5 flex content-center">
-                <div class="max-w-sm mt-6">
+        <section class="flex flex-col md:flex-row gap-12 mt-6 mb-12" style="font-family: 'Open Sans', sans-serif;">
+            <div class="md:w-2/5 md:flex content-center">
+                <div class="md:max-w-sm mt-6">
                     {{!-- <h3 class="font-bold text-lg">Decouvrir des destinations insoupçonnées</h3> --}}
                     <h3 class="font-bold">Découvrir des destinations insoupçonnées</h3>
                     <hr class="w-32 h-1 my-6 bg-[#e6ce03] border-0 dark:bg-gray-700">
-                    <p class="text-slate-700 leading-loose font-medium">
+                    <p class="text-slate-700 leading-relaxed md:leading-loose font-medium">
                         Un chalet en pleine montagne ? Des randonnées dans des calanques aux
                         senteurs méditérranéennes ? Des petits villages pittoresques ? Laissez vous tenter par autant de destinations entièrement
                         accessibles sans voiture.
@@ -50,15 +50,15 @@
                 </div>
             </div>
 
-            <div class="w-3/5 grow-0">
-                <div class="flex gap-6">
-                    <div class="flex flex-col gap-6">
-                        <img src={{asset "images/home/agay.jpeg"}} alt="" class="w-full rounded-md">
-                        <img src={{asset "images/home/rigi-chalet.jpeg"}} alt="" class="w-full rounded-md">
+            <div class="md:w-3/5 grow-0">
+                <div class="flex gap-2 md:gap-6">
+                    <div class="flex flex-col gap-2 md:gap-6">
+                        <img src={{asset "images/home/agay.jpeg"}} alt="" class="w-full rounded md:rounded-md">
+                        <img src={{asset "images/home/rigi-chalet.jpeg"}} alt="" class="w-full rounded md:rounded-md">
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <img src={{asset "images/home/semur.jpeg"}} alt="" class="w-full rounded-md">
-                        <img src={{asset "images/home/lac-bleu.jpeg"}} alt="" class="w-full rounded-md">
+                    <div class="flex flex-col gap-2 md:gap-6">
+                        <img src={{asset "images/home/semur.jpeg"}} alt="" class="w-full rounded md:rounded-md">
+                        <img src={{asset "images/home/lac-bleu.jpeg"}} alt="" class="w-full rounded md:rounded-md">
                     </div>
                 </div>
             </div>
