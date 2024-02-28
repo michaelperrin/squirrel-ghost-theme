@@ -18,6 +18,7 @@
 @media (max-width: 767px) {
   :root {
     --footer-spacing: 64px;
+    --gap: 1rem;
   }
 }
 
@@ -27,6 +28,7 @@ body {
 
 figcaption {
   font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 .has-full-image figcaption {
@@ -716,6 +718,26 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 
 .gh-subscribe ~ .gh-copyright {
   margin-top: 64px;
+}
+
+.gh-content ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.gh-content ul li {
+  padding-left: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.gh-content ul li::marker {
+  color: var(--ghost-accent-color);
 }
 
 /* Media queries */
