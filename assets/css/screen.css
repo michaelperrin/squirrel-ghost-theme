@@ -1019,3 +1019,9 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     width: 6rem;
   }
 }
+
+@media (min-width: 768px) {
+  .gh-head-logo img {
+    max-height: 50px;
+  }
+}

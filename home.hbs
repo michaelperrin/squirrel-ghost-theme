@@ -1,20 +1,5 @@
 {{!< default}}
 
-{{!-- <div class="w-full relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-64 lg:px-8">
-    <img src={{asset "images/home/hero.jpeg"}} alt="" class="absolute inset-0 -z-10 h-full w-full object-cover bg-top after:absolute after:inset-0 after:bg-gradient-to-b after:from-transparent  after:to-black after:z-20 after:opacity-50">
-    <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-    <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-    <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl" style="text-shadow: 0 0 20px rgba(0, 0, 0, 0.9)">Des voyages tout en train</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-    </div>
-</div> --}}
-
-
 <div class="w-full flex items-center relative isolate overflow-hidden bg-gray-900 px-6 min-h-[30vh] md:min-h-[60vh] pt-32 pb-24 lg:px-8" style="font-family: 'Open Sans', sans-serif;">
     <div class="relative mx-auto max-w-3xl text-center z-30">
         <h2 class="text-4xl font-bold tracking-tight text-white sm:text-5xl" style="text-shadow: 0 0 20px rgba(0, 0, 0, 0.9)">Des voyages en train</h2>
@@ -22,11 +7,6 @@
             Je vous propose sur ce site des idées de destinations accessibles en train. Vous y trouverez des conseils pour organiser votre séjour, toutes les informations pour vous déplacer sur place sans voiture, et bien plus encore.
         </p>
     </div>
-
-
-    {{!-- <div className="absolute inset-0 after:absolute after:inset-0 after:bg-gradient-to-b after:from-transparent after:via-transparent after:to-black after:z-20 after:opacity-70">
-        <img src={{asset "images/home/hero.jpeg"}} alt="" class="object-cover">
-    </div> --}}
 
     <div class="absolute inset-0 after:absolute after:inset-0 after:bg-gradient-to-b after:from-transparent after:via-black/40 after:to-black/70 after:z-20">
         <img src={{asset "images/home/hero.jpeg"}} alt="" class="w-full h-full object-cover object-bottom">
@@ -42,11 +22,17 @@
                     {{!-- <h3 class="font-bold text-lg">Decouvrir des destinations insoupçonnées</h3> --}}
                     <h3 class="font-bold">Découvrir des destinations insoupçonnées</h3>
                     <hr class="w-32 h-1 my-6 bg-[#e6ce03] border-0 dark:bg-gray-700">
-                    <p class="text-slate-700 leading-relaxed md:leading-loose font-medium">
-                        Un chalet en pleine montagne ? Des randonnées dans des calanques aux
-                        senteurs méditérranéennes ? Des petits villages pittoresques ? Laissez vous tenter par autant de destinations entièrement
-                        accessibles sans voiture.
-                    </p>
+                    <div class="flex flex-col gap-4 text-slate-700 leading-relaxed md:leading-loose font-medium">
+                        <p>
+                            Un chalet en pleine montagne ? Des randonnées dans des calanques aux
+                            senteurs méditérranéennes ? Des petits villages pittoresques ?
+                        </p>
+
+                        <p>
+                            Pour des week-ends tout près de chez vous, des vacances en France ou en Europe, laissez vous tenter par autant de destinations entièrement
+                            accessibles sans voiture.
+                        </p>
+                    </div>
                 </div>
             </div>
 
