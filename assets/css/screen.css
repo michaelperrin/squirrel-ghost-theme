@@ -37,6 +37,7 @@ figcaption {
 
 .gh-btn {
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 body:not(.is-head-stacked) .gh-head {
@@ -568,6 +569,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 
 .gh-cover-content .gh-article-tag {
   color: var(--color-white);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .gh-cover-title {
@@ -583,6 +585,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 
 .post-template .gh-cover-title {
   text-transform: none;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .gh-cover-description {
@@ -629,7 +632,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 }
 
 .gh-subscribe-title {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   color: var(--color-white);
   white-space: break-spaces;
 }
@@ -720,6 +723,11 @@ body:not(.home-template) .gh-topic-grid .gh-card {
   margin-top: 64px;
 }
 
+.gh-content a {
+  color: #19628e;
+  font-weight: 500;
+}
+
 .gh-content ul {
   margin: 0;
   padding: 0;
@@ -743,6 +751,10 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 /* Media queries */
 
 @media (max-width: 767px) {
+  #gh-head .nav a {
+    font-size: 1.8rem;
+  }
+
   .gh-main {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -836,11 +848,11 @@ body:not(.home-template) .gh-topic-grid .gh-card {
   }
 
   .gh-subscribe-title {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   .gh-subscribe-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .gh-foot-menu {
