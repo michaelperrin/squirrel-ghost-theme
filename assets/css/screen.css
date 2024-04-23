@@ -724,8 +724,9 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 }
 
 .gh-content a {
-  color: #19628e;
-  font-weight: 500;
+  color: #ba5516;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .gh-content ul {
